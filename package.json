@@ -1,0 +1,27 @@
+{
+  "name": "ipfs-distributed-storage-dapp",
+  "version": "1.0.0",
+  "description": "IPFS DAPP utlizes the interPlanetary File System a protocol and peer-to-peer network for storing and sharing data in a distributed file system. IPFS uses content-addressing to uniquely identify each file in a global namespace connecting all computing devices",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ipfs",
+    "ipfs-distributed-storage-dapp"
+  ],
+  "author": "timothy.mugayi",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.538.0",
+    "aws-serverless-express": "^3.3.6",
+    "body-parser": "^1.19.0",
+    "busboy": "^0.3.1",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "ipfs": "^0.37.1",
+    "lodash": "^4.17.15",
+    "request": "^2.88.0"
+  }
+}
